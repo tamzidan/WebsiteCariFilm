@@ -34,7 +34,7 @@ const AboutPage = () => {
             <div className="text-center">
             <div className="w-24 h-24 bg-gray-700 rounded-full mx-auto mb-4 overflow-hidden">
                 <img 
-                    src="../../public/tamzidan.jpg" 
+                    src="/tamzidan.jpg" 
                     alt="Profile" 
                     className="w-full h-full object-cover"
                 />
