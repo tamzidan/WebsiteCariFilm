@@ -277,6 +277,7 @@ body {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  min-width: 18vh;
 }
 
 .search-button:hover {
