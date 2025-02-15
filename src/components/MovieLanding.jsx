@@ -73,7 +73,7 @@ const MovieLanding = () => {
     try {
       setLoading(true);
       setError(null);
-      const response = await fetch(`http://www.omdbapi.com/?s=${query}&page=${page}&apikey=${API_KEY}`);
+      const response = await fetch(`https://www.omdbapi.com/?s=${query}&page=${page}&apikey=${API_KEY}`);
       const data = await response.json();
       
       if (data.Response === "True") {
@@ -103,7 +103,7 @@ const MovieLanding = () => {
   const getMovieDetails = async (imdbID) => {
     try {
       setLoadingDetails(true);
-      const response = await fetch(`http://www.omdbapi.com/?i=${imdbID}&apikey=${API_KEY}`);
+      const response = await fetch(`https://www.omdbapi.com/?i=${imdbID}&apikey=${API_KEY}`);
       const data = await response.json();
       
       if (data.Response === "True") {
